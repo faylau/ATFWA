@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalconf>
+	<ip>10.1.166.1</ip>
+    <hostname> </hostname> <!--You don't hava to fill this field, but DO NOT delete this line!-->
+    <ssh_username>root</ssh_username>
+    <ssh_password>neokylin123</ssh_password>
+    <web_username>neoadmin</web_username>
+    <web_password>qwer1234</web_password>
+
+    <!--
+        exec_type:
+        all:        Execute all test cases in the TestCase folder.
+        module:     Execute all test cases in the module whose 'run' parameter is 'True'
+        config:     Execute test cases whose 'run' parameter is 'True' in BasicSuite.xml
+        bvt:        Execute BVT (Build Verification Test) only
+        smoke:      Execute smoke testing only
+        autotest:   Execute test cases that transported from testopia
+	-->
+    <exec_type>config</exec_type>
+
+    <!--
+        loglevel:
+        0  debug
+        1  normal(default)
+        2  only warning, error & fail
+    -->
+    <loglevel>0</loglevel>
+</globalconf>

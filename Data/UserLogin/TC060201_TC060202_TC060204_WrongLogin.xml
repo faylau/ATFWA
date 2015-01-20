@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+	<datadrive>
+	    <data1>
+	        <username> </username>
+			<password>qwer1234</password>
+			<expectresult>用户名不能为空</expectresult>
+		</data1>
+		<data2>
+			<username>neoadmin</username>
+			<password> </password>
+			<expectresult>密码不能为空</expectresult>
+		</data2>
+		<data3>
+			<username>neoadmin</username>
+			<password>wrongpassword</password>
+			<expectresult>密码错误</expectresult>
+		</data3>
+		<data4>
+			<username>somebody_not_exist</username>
+			<password>anypassword</password>
+			<expectresult>用户名不存在</expectresult>
+		</data4>
+	</datadrive>
+</case>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+	<module name="UserLogin" id="06">
+		<description>用户登录</description>
+		<filename>UserLogin.py</filename>
+		<run>False</run>
+	</module>
+
+
+    <module name="GroupAndGroupRole" id="0701">
+        <description>用户组和组角色管理</description>
+        <filename>Group.py</filename>
+        <run>False</run>
+    </module>
+
+    <module name="RoleInGroup" id="0702">
+        <description>组内角色管理</description>
+        <filename>RoleMgmt.py</filename>
+        <run>False</run>
+    </module>
+
+    <module name="UserMgmt" id="0703">
+        <description>用户管理</description>
+        <filename>UserMgmt.py</filename>
+        <run>False</run>
+    </module>
+
+
+    <module name="ClusterMgmt" id="0801">
+        <description>主机资源池管理</description>
+        <filename>ClusterMgmt.py</filename>
+        <run>False</run>
+    </module>
+
+    <module name="HostMgmt" id="0802">
+        <description>主机管理（暂未实现）</description>
+        <filename>host_mgmt.py</filename>
+        <run>False</run>
+    </module>
+
+    <module name="NetworkMgmt" id="0803">
+        <description>网络管理</description>
+        <filename>NetworkMgmt.py</filename>
+        <run>True</run>
+    </module>
+
+    <module name="IMGMgmt" id="0804">
+        <description>映像管理</description>
+        <filename>ImgMgmt.py</filename>
+        <run>False</run>
+    </module>
+
+    <module name="MyResource" id="0805">
+        <description>我的资源（暂未实现）</description>
+        <filename>my_resource.py</filename>
+        <run>False</run>
+    </module>
+
+
+    <module name="VM" id="09">
+        <description>虚拟实例</description>
+        <filename>VM.py</filename>
+        <run>False</run>
+    </module>
+
+
+    <module name="SecMgmt" id="10">
+        <description>安全管理</description>
+        <filename>SecMgmt.py</filename>
+        <run>False</run>
+    </module>
+
+
+    <module name="StatisticsAndMonitor" id="11">
+        <description>统计监控</description>
+        <filename>Monitor.py</filename>
+        <run>False</run>
+    </module>
+
+
+    <module name="StorageService" id="12">
+        <description>存储服务</description>
+        <filename>StorageService.py</filename>
+        <run>False</run>
+    </module>
+</modules>
